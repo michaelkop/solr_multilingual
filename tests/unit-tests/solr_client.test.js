@@ -14,7 +14,7 @@ describe("Solr client test", function()
         return next();
     })
 
-    it("test12", function (next)
+    it("test123", function (next)
     {
         var solrUrl = "http://localhost:8983/solr/ML";
         var solrClient = new SolrClient(solrUrl);
